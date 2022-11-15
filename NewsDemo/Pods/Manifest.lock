@@ -1,0 +1,91 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Const (0.1.0)
+  - Core (0.1.0)
+  - CoreUI (0.1.0):
+    - Core
+  - IQKeyboardManagerSwift (6.5.10)
+  - News (0.1.0):
+    - Core
+    - CoreUI
+    - Reusable
+    - SDWebImage (~> 5.0)
+    - SkeletonView
+    - Util
+  - Reusable (4.1.2):
+    - Reusable/Storyboard (= 4.1.2)
+    - Reusable/View (= 4.1.2)
+  - Reusable/Storyboard (4.1.2)
+  - Reusable/View (4.1.2)
+  - Router (0.1.0):
+    - Core
+    - News
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+  - SkeletonView (1.30.4)
+  - Util (0.1.0):
+    - Alamofire (~> 4.7)
+    - Const
+    - RxCocoa
+    - RxSwift
+
+DEPENDENCIES:
+  - Const (from `Modules/Const`)
+  - Core (from `Modules/Core`)
+  - CoreUI (from `Modules/CoreUI`)
+  - IQKeyboardManagerSwift
+  - News (from `Modules/News`)
+  - Router (from `Modules/Router`)
+  - Util (from `Modules/Util`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Reusable
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SkeletonView
+
+EXTERNAL SOURCES:
+  Const:
+    :path: Modules/Const
+  Core:
+    :path: Modules/Core
+  CoreUI:
+    :path: Modules/CoreUI
+  News:
+    :path: Modules/News
+  Router:
+    :path: Modules/Router
+  Util:
+    :path: Modules/Util
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Const: 121b651ac6bb11f724d2daaeb4701a71452865b4
+  Core: a422f2ca777d624b08bb0d0a5aa8d1d0a67cb66c
+  CoreUI: bdd5601194a677ee91748dd8700759e9ddbb42f3
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  News: 0b40743770b640b24f2d6cb70bcff40ec0205ca3
+  Reusable: 6bae6a5e8aa793c9c441db0213c863a64bce9136
+  Router: 4cc8f5ff6ffce58aa127065ee2a3b4594365c90c
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  Util: d7965bd18a779e351c1f213abd4f3f293df52ed8
+
+PODFILE CHECKSUM: ba97989657bdaf750382b9e14152ec6010b5605c
+
+COCOAPODS: 1.11.3

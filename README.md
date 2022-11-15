@@ -55,9 +55,3 @@ I have added these two tests into single projects so that you can just build and
 ### Design pattern
 - [ ] Modularization Architecture
 - [ ] MVVM
-
-### Previews
-
-![preview](news_list_screen.jpg)
-
-![preview](details_screen.jpg)

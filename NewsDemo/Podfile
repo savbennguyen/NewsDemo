@@ -1,0 +1,27 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'NewsDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NewsDemo
+  pod 'Const', :path => 'Modules/Const'
+  pod 'News', :path => 'Modules/News'
+  pod 'Util', :path => 'Modules/Util'
+  pod 'CoreUI', :path => 'Modules/CoreUI'
+  pod 'Core', :path => 'Modules/Core'
+  pod 'Router', :path => 'Modules/Router'
+  
+  pod 'IQKeyboardManagerSwift'
+  
+  target 'NewsDemoTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NewsDemoUITests' do
+    # Pods for testing
+  end
+
+end

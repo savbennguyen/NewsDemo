@@ -1,0 +1,23 @@
+{
+  "name": "CoreUI",
+  "version": "0.1.0",
+  "summary": "A short description of CoreUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BenNguyen/CoreUI",
+  "authors": {
+    "BenNguyen": ""
+  },
+  "source": {
+    "git": "https://github.com/BenNguyen/CoreUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "CoreUI/Classes/**/*",
+  "dependencies": {
+    "Core": [
+
+    ]
+  }
+}

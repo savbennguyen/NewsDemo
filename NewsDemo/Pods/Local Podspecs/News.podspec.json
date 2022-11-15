@@ -1,0 +1,52 @@
+{
+  "name": "News",
+  "version": "0.1.0",
+  "summary": "A short description of News.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BenNguyen/News",
+  "authors": {
+    "BenNguyen": ""
+  },
+  "source": {
+    "git": "https://github.com/BenNguyen/News.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "News/**/**/*.{xib,swift,h,m}",
+  "resources": "News/Assets/*.{png,json,xcassets}",
+  "resource_bundles": {
+    "News": [
+      "News/Assets/**/*.{png,xcassets,json,txt,storyboard,xib,xcdatamodeld,strings}"
+    ]
+  },
+  "weak_frameworks": "XCTest",
+  "dependencies": {
+    "Util": [
+
+    ],
+    "CoreUI": [
+
+    ],
+    "Core": [
+
+    ],
+    "Reusable": [
+
+    ],
+    "SkeletonView": [
+
+    ],
+    "SDWebImage": [
+      "~> 5.0"
+    ]
+  },
+  "testspecs": [
+    {
+      "name": "Tests",
+      "test_type": "unit",
+      "source_files": "News/Tests/**/*.{xib,swift,h,m}"
+    }
+  ]
+}
